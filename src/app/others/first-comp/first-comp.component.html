@@ -1,0 +1,34 @@
+<p>first-comp works!</p>
+
+<h1>{{ data?.name }}</h1>
+
+<p>{{ name ? name : 'Murari' }}</p>
+
+<input type="text" [value]="name" #test>
+
+<button (click)="changeName(test.value)">Change</button>
+
+<div>
+    <input type="text" [(ngModel)]="name">
+</div>
+<h2 *ngIf="name">My name is {{ name }}</h2>
+
+<h2 *ngIf="name; else noname">I have any name</h2>
+
+<ng-template #noname>
+    <h2>I don't have any name</h2>
+</ng-template>
+
+<div *ngFor="let item of counterArr; let i = index; let lastItem = last; let firstItem = first;">
+    <h2>{{ item }}</h2>
+    <!-- <p>{{ i }}</p> -->
+    <!-- <div [ngSwitch]="item">
+        <h2 *ngSwitchCase="1">Type 1</h2>
+        <h2 *ngSwitchCase="2">Type 2</h2>
+        <h2 *ngSwitchDefault>Type Any</h2>
+    </div> -->
+</div>
+
+
+<h2 [ngStyle]="myObj">Some ranodm rext</h2>
+<h2 [ngClass]="{ 'active': !name }">Some</h2>

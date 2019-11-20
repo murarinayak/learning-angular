@@ -1,0 +1,7 @@
+<p appHighlight>children works!</p>
+
+<ng-content #content></ng-content>
+
+<input type="text" #myinp value="first">
+
+<button (click)="myinp.value = myService.getCount()">GET</button>
