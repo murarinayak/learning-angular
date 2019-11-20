@@ -1,7 +1,7 @@
 # Learning Angular
 
 ## Points to Cover
-01. Introduction and how Angular starts up
+01. [Introduction to Angular and how it starts up](https://www.murarinayak.com/blog/learning/introduction-to-angular-and-how-it-starts-up/)
 02. Understanding Components and Modules
 03. Data-binding (String interpolation, property binding, events)
 04. if-else, for, switch
