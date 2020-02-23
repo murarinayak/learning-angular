@@ -9,8 +9,8 @@ import { CounterService } from '../services/counter.service';
 })
 export class ChildrenComponent implements OnInit, AfterViewInit, AfterContentInit, AfterContentChecked {
 
-  @ViewChild('myinp', { static: false }) myinp: ElementRef;
-  @ContentChild('content', { static: false}) childContent: ElementRef;
+  @ViewChild('myinp') myinp: ElementRef;
+  @ContentChild('content') childContent: ElementRef;
 
   constructor(public myService: CounterService) { }
 
