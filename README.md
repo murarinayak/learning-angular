@@ -2,25 +2,23 @@
 
 ## Points to Cover
 01. [Introduction to Angular and how it starts up](https://www.murarinayak.com/blog/learning/introduction-to-angular-and-how-it-starts-up/)
-02. Understanding Components and Modules
-03. Data-binding (String interpolation, property binding, events)
-04. if-else, for, switch
-05. ngStyle, ngClass
-06. Component custom properties and custom events
-07. ViewChild, ContentChild
-08. Component Lifecycle
+02. [Understanding Components and Modules](https://www.murarinayak.com/blog/learning/angular-components-modules/)
+03. [Data-binding (String interpolation, property binding, events)](https://www.murarinayak.com/blog/learning/data-binding/)
+04. [Angular Directives](https://www.murarinayak.com/blog/learning/angular-directives/)
+05. [Styling in Angular – ngStyle, ngClass](https://www.murarinayak.com/blog/learning/styling-in-angular/)
+06. [Component custom properties and custom events](https://www.murarinayak.com/blog/learning/component-custom-properties-and-events/)
+07. [ViewChild and ContentChild in Angular](https://www.murarinayak.com/blog/learning/viewchild-and-contentchild-in-angular/)
+08. [Component Lifecycle in Angular](https://www.murarinayak.com/blog/learning/component-lifecycle-in-angular/)
 09. Directives (including HostBinding, HostListener)
-10. Services (Dependancy Injection)
-11. Routing (QueryParams, Fragments, Pass data to route)
-12. Guards
-13. Observable, Subjects
-14. Forms (Template Driven, Reactive, Custom Form Controls)
-15. Pipes
-16. API calls (HTTPClient)
-17. Interceptor
-18. Shared Modules, Lazy Loading
-19. Store
-20. Deployment
+10. [Services (Dependancy Injection)](https://www.murarinayak.com/blog/learning/services-in-angular-dependency-injection/)
+11. [Angular Routing and Guards](https://www.murarinayak.com/blog/learning/angular-routing-and-guards/)
+12. [RxJS in Angular (Observable, Subjects)](https://www.murarinayak.com/blog/learning/rxjs-in-angular-observables-subjects/)
+13. [Angular Forms (Template Driven, Reactive)](https://www.murarinayak.com/blog/learning/angular-forms-template-driven-reactive/)
+14. [Pipes in Angular](https://www.murarinayak.com/blog/learning/pipes-in-angular/)
+15. [Making HTTP Requests in Angular (HTTPClient)](https://www.murarinayak.com/blog/learning/making-http-requests-in-angular-httpclient/)
+16. [HTTP Interceptor](https://www.murarinayak.com/blog/learning/http-interceptor-in-angular/)
+17. [Angular Modules, Lazy Loading](https://www.murarinayak.com/blog/learning/angular-modules-and-lazy-loading/)
+18. [Deployment](https://www.murarinayak.com/blog/learning/deploying-an-angular-app/)
 
 The live project can be found at: https://murarinayak.github.io/learning-angular/
 
